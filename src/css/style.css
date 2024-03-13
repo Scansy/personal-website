@@ -66,3 +66,11 @@ section:not(section:first-of-type) {
 .text-green {
     color: #1DB954;
 }
+
+footer a {
+    transition: scale 0.5s;
+}
+
+footer a:hover {
+    scale: 1.2;
+}
