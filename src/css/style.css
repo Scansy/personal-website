@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Actor&family=Kadwa:wght@400;700&display=swap');
 
-h1, h2 {
+h1, h2, h4 {
     font-family: Kadwa;
 }
 
@@ -36,4 +36,33 @@ p, a {
 
 .nav-item {
     width: 33%;
+}
+
+#about-me img {
+    width: 50%;
+}
+
+section:not(section:first-of-type) {
+    margin-top: 6em;
+}
+
+#projects ul {
+    list-style-type: none;
+}
+
+#things-i-like img {
+    width: 100%;
+    height: 100%;
+}
+
+#things-i-like figcaption {
+    font-size: small;
+}
+
+.text-pink {
+    color: #E1306C;
+}
+
+.text-green {
+    color: #1DB954;
 }
