@@ -40,6 +40,7 @@ p, a {
 
 #about-me img {
     width: 50%;
+    height: 50%;
 }
 
 section:not(section:first-of-type) {
